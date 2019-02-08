@@ -28,5 +28,5 @@ foo@bar:~$ iss/run.x
 
 4. (Optional) Run the Octave script to display the results:
 ```console
-foo@bar:~$ octave sim.m 
+foo@bar:~$ octave iss/sim.m 
 ```
