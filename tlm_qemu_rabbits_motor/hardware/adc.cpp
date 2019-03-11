@@ -27,7 +27,7 @@ void Adc::thread_process(){
             irq.write(0); 
             std::cout << "Interrupt at time (ms): " << sc_core::sc_time_stamp().to_seconds()*1000.0 <<  std::endl;
         }
-        wait(timestep-0.4, sc_core::SC_MS);
+        wait(timestep, sc_core::SC_MS);
     }
 }
 

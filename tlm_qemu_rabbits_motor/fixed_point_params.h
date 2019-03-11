@@ -4,7 +4,7 @@
 #include<stdint.h>
 
 // Use either the FPU or fixed point arithmetics
-#define USE_FLOATING_POINT 1
+#define USE_FLOATING_POINT 0
 
 // Fixed point resolution
 #define FIXED_POINT_N 10
